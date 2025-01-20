@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #f7f7f7;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-image {
+    flex: 1;
+    text-align: right;
+    height: 100%;
+    
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    
+}
+
+  
+  .hero-text h1 {
+    color: #4caf50;
+    font-size: 2.5rem;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .newsletter button {
+    background: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    padding: 50px 0;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Services Section */
+  .services {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .services-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .service img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Blogs Section */
+  .blogs {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .blog-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #4caf50;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
