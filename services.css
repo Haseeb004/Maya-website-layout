@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
 }
 
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -39,6 +40,7 @@ header nav ul li a.active {
     color: #4caf50;
 }
 
+/* Hero Section */
 .hero {
     text-align: center;
     background-color: #e8f5e9;
@@ -74,6 +76,7 @@ header nav ul li a.active {
     cursor: pointer;
 }
 
+/* Categories and Services */
 .categories, .services {
     padding: 50px;
     text-align: center;
@@ -111,6 +114,7 @@ header nav ul li a.active {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .service {
@@ -129,12 +133,15 @@ header nav ul li a.active {
     margin-bottom: 10px;
 }
 
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 footer img {
@@ -144,4 +151,99 @@ footer img {
 footer a {
     color: #4caf50;
     text-decoration: none;
+}
+
+/* Responsive Design */
+
+/* Laptop (1024px and below) */
+@media (max-width: 1024px) {
+    header {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .hero img {
+        position: static;
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    .service-list {
+        justify-content: space-around;
+    }
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .service {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile (425px and below) */
+@media (max-width: 425px) {
+    header {
+        padding: 10px;
+    }
+
+    header .logo img {
+        width: 80px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero img {
+        width: 150px;
+    }
+
+    .categories, .services {
+        padding: 20px;
+    }
+
+    .service {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer img {
+        width: 80px;
+    }
 }
