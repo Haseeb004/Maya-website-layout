@@ -15,37 +15,49 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 3px solid #008000;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
   
-  /* Header */
-  .header {
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-  }
-  
-  .header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #4caf50;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  .navbar li {
-    margin: 0 10px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: #000;
-  }
+}
+
+.navbar li {
+  margin: 0 15px;
+  display: flex;
+  margin-right: 150px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar a.active, .navbar a:hover {
+  color: #008000;
+}
+
   
   /* Hero Section */
   .hero {
