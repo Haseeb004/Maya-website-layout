@@ -31,6 +31,8 @@ border-bottom: 3px solid #008000;
 
 .logo img {
 height: 50px;
+display: flex;
+
 }
 
 .navbar ul {
@@ -71,6 +73,7 @@ color: #008000;
   flex: 1;
   text-align: right;
   height: 100%;
+  width: 100%;
   
 }
 
