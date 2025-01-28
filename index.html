@@ -4,23 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maya Wellness</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header class="site-header">
+  <header>
     <div class="logo">
-      <img src="./imges/maya logo.png" alt="Maya Logo">
+        <img src="./imges/maya logo.png" alt="Maya Logo"> 
     </div>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="./services.html">Services</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+    <nav>
+        <ul>
+            <li><a href="#"  class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./services.html" >Services</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
   <section class="hero">
     <div class="container hero-content">
@@ -46,7 +46,7 @@
       <div class="about-text">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est pariatur eos odio voluptatem deleniti ratione.</p>
-        <button>Learn More</button>
+        <button class="btn">Learn More</button>
       </div>
     </div>
   </section>
@@ -77,45 +77,58 @@
       <h2>Our Blogs</h2>
       <div class="blog-grid">
         <div class="blog">
+          <img src="./imges/pray.jpeg"  class="img-1" alt="">
           <h3>Finding Peace in Prayer</h3>
           <p>Learn how prayer can transform your daily life.</p>
-          <button>Read More</button>
+          <button class="btn">Read More</button>
         </div>
         <div class="blog">
+          <img src="./imges/Holistic.jpeg"  class="img-2" alt="">
           <h3>Holistic Wellness Tips</h3>
           <p>Discover how to achieve a balanced lifestyle.</p>
-          <button>Read More</button>
+          <button class="btn">Read More</button>
         </div>
         <div class="blog">
+          <img src="./imges/download.jpeg" class="img-3" alt="">
           <h3>Mindfulness Practices</h3>
           <p>Embrace mindfulness to improve your well-being.</p>
-          <button>Read More</button>
+          <button class="btn">Read More</button>
         </div>
       </div>
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container footer-content">
-      <div class="footer-logo">
-        <h3>Maya Wellness</h3>
-        <p>Tinkune, Nepal</p>
-        <p>Email: maya@gmail.com</p>
-      </div>
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Yoga Classes</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </div>
-      <div class="footer-contact">
-        <h4>Contact Info</h4>
-        <p>Phone: +9818686881</p>
-        <p>Email: maya@gmail.com</p>
-      </div>
+  <div class="g">
+    <div class="up">
+    <h1 class="subscribe">Subscribe To Our Newsletter</h1>
+    <p class="text">Get updates for new classes and new products</p>
+  </div>
+  <div class="search-container">
+    <input type="text" class="search-input" placeholder="Enter your email...">
+    <button class="search-button">Subscribe</button>
+</div>
+
+  </div>
+
+  <footer>
+    <div class="footer-logo">
+        <img src="./imges/maya logo.png" alt="Footer Logo"> 
     </div>
-  </footer>
+    <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Yoga Classes</a></li>
+            <li><a href="#">Spa Treatments</a></li>
+            <li><a href="#">Personal Training</a></li>
+        </ul>
+    </div>
+    <div class="contact-info">
+        <h3>Contact Info</h3>
+        <p>Tinkune, Nepal</p>
+        <p>08168106501</p>
+        <p>mayainfo@gmail.com</p>
+    </div>
+</footer>
 </body>
 </html>
